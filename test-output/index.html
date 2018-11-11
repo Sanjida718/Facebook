@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">4 methods,   4 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,12 +102,22 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="tests.IframeTesting" hash-for-method="iframe1">iframe1</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="tests.SoftAssert" hash-for-method="assertRightThere">assertRightThere</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="tests.IframeTesting" hash-for-method="iframes">iframes</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="tests.SoftAssert" hash-for-method="softassert">softassert</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="tests.SoftAssert" hash-for-method="tosee">tosee</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="tests.SoftAssert" hash-for-method="tryCatchTesting">tryCatchTesting</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -125,21 +135,35 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">tests.IframeTesting</span>
+              <span class="class-name">tests.SoftAssert</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="iframe1">
-                  </a> <!-- iframe1 -->
-                  <span class="method-name">iframe1</span>
+                  <a name="assertRightThere">
+                  </a> <!-- assertRightThere -->
+                  <span class="method-name">assertRightThere</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="iframes">
-                  </a> <!-- iframes -->
-                  <span class="method-name">iframes</span>
+                  <a name="softassert">
+                  </a> <!-- softassert -->
+                  <span class="method-name">softassert</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tosee">
+                  </a> <!-- tosee -->
+                  <span class="method-name">tosee</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tryCatchTesting">
+                  </a> <!-- tryCatchTesting -->
+                  <span class="method-name">tryCatchTesting</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -147,7 +171,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/private/var/folders/wm/hvhl12wx55b8blbbpqgdmtfm0000gn/T/testng-eclipse--1988194540/testng-customsuite.xml</span>
+            <span class="header-content">/private/var/folders/wm/hvhl12wx55b8blbbpqgdmtfm0000gn/T/testng-eclipse-1356277035/testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -156,7 +180,7 @@
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
   &lt;test verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;tests.IframeTesting&quot;/&gt;
+      &lt;class name=&quot;tests.SoftAssert&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -196,20 +220,28 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(4);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'iframes')
-data.setCell(0, 2, 'tests.IframeTesting')
-data.setCell(0, 3, 915);
+data.setCell(0, 1, 'assertRightThere')
+data.setCell(0, 2, 'tests.SoftAssert')
+data.setCell(0, 3, 30);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'iframe1')
-data.setCell(1, 2, 'tests.IframeTesting')
-data.setCell(1, 3, 197);
+data.setCell(1, 1, 'tryCatchTesting')
+data.setCell(1, 2, 'tests.SoftAssert')
+data.setCell(1, 3, 4);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'softassert')
+data.setCell(2, 2, 'tests.SoftAssert')
+data.setCell(2, 3, 2);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'tosee')
+data.setCell(3, 2, 'tests.SoftAssert')
+data.setCell(3, 3, 1);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 seconds</span>
+              <span class="suite-total-time">Total running time: 37 ms</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -235,18 +267,22 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">tests.IframeTesting</div> <!-- chronological-class-name -->
-              <div class="configuration-test before">
-                <span class="method-name">beforetestingstart</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- configuration-test before -->
+              <div class="chronological-class-name">tests.SoftAssert</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">iframe1</span>
-                <span class="method-start">11516 ms</span>
+                <span class="method-name">assertRightThere</span>
+                <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">iframes</span>
-                <span class="method-start">11715 ms</span>
+                <span class="method-name">softassert</span>
+                <span class="method-start">35 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">tosee</span>
+                <span class="method-start">42 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">tryCatchTesting</span>
+                <span class="method-start">47 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

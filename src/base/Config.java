@@ -1,5 +1,7 @@
 package base;
 
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.BeforeTest;
 
@@ -12,8 +14,14 @@ public class Config extends SWfunctions {
 		System.setProperty("webdriver.chrome.driver", "/Users/SanjidaAfrin/Documents/SeleniumFramework/Drivers/chromedriver");
 		 driver=new ChromeDriver();
 		driver.get("https://www.facebook.com/");
-	}
+		//driver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
+	
+
+
+	
 
 }
+}
+
 
 

@@ -22,6 +22,9 @@ public class SWfunctions {
 	public void clickByXpath (String locators){
 		driver.findElement(By.xpath(locators)).click();
 	}
+	public void clickByCss(String loc){
+		driver.findElement(By.cssSelector(loc));
+	}
 	//dropdown
 	public void dropdownusingValue(String loc,String value){
 		WebElement selectelements=driver.findElement(By.xpath(loc));
@@ -33,8 +36,21 @@ public class SWfunctions {
 		Select dropdown=new Select(choseelement);
 		dropdown.selectByIndex(x);
 	}
-	//public void Radiobutton(){
+	//radio button
+	public void Radiobutton(String loc){
+		//driver.findElement(By.xpath(loc)).clear();
+		driver.findElement(By.xpath(loc)).click();
+	}
+	//Radiocss
+	public void radiobutton(String loc){
+		driver.findElement(By.cssSelector(loc)).click();
+			
+		}
+	
+		
+		
 		//Iframe
+		
 	public void iframe(String loc){
 		WebElement ab=driver.findElement(By.xpath(loc));
 		List<WebElement> el= ab.findElements(By.tagName("a"));
@@ -44,7 +60,8 @@ public class SWfunctions {
 			System.out.println(el.get(k).getText());
 
 		}}
-}
+	}
+	
 	
 
 

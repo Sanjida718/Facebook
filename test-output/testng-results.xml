@@ -1,25 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="12637" started-at="2018-11-10T19:06:56Z" finished-at="2018-11-10T19:07:09Z">
+  <suite name="Default suite" duration-ms="111" started-at="2018-11-11T07:57:36Z" finished-at="2018-11-11T07:57:37Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="12637" started-at="2018-11-10T19:06:56Z" finished-at="2018-11-10T19:07:09Z">
-      <class name="tests.IframeTesting">
-        <test-method status="PASS" signature="beforetestingstart()[pri:0, instance:tests.IframeTesting@7c16905e]" name="beforetestingstart" is-config="true" duration-ms="11496" started-at="2018-11-10T14:06:56Z" finished-at="2018-11-10T14:07:08Z">
+    <test name="Default test" duration-ms="111" started-at="2018-11-11T07:57:36Z" finished-at="2018-11-11T07:57:37Z">
+      <class name="tests.SoftAssert">
+        <test-method status="PASS" signature="assertRightThere()[pri:0, instance:tests.SoftAssert@3a82f6ef]" name="assertRightThere" duration-ms="30" started-at="2018-11-11T02:57:37Z" finished-at="2018-11-11T02:57:37Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforetestingstart -->
-        <test-method status="PASS" signature="iframe1()[pri:0, instance:tests.IframeTesting@7c16905e]" name="iframe1" duration-ms="197" started-at="2018-11-10T14:07:08Z" finished-at="2018-11-10T14:07:08Z">
+        </test-method> <!-- assertRightThere -->
+        <test-method status="PASS" signature="softassert()[pri:0, instance:tests.SoftAssert@3a82f6ef]" name="softassert" duration-ms="2" started-at="2018-11-11T02:57:37Z" finished-at="2018-11-11T02:57:37Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- iframe1 -->
-        <test-method status="PASS" signature="iframes()[pri:0, instance:tests.IframeTesting@7c16905e]" name="iframes" duration-ms="915" started-at="2018-11-10T14:07:08Z" finished-at="2018-11-10T14:07:09Z">
+        </test-method> <!-- softassert -->
+        <test-method status="PASS" signature="tosee()[pri:0, instance:tests.SoftAssert@3a82f6ef]" name="tosee" duration-ms="1" started-at="2018-11-11T02:57:37Z" finished-at="2018-11-11T02:57:37Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- iframes -->
-      </class> <!-- tests.IframeTesting -->
+        </test-method> <!-- tosee -->
+        <test-method status="PASS" signature="tryCatchTesting()[pri:0, instance:tests.SoftAssert@3a82f6ef]" name="tryCatchTesting" duration-ms="4" started-at="2018-11-11T02:57:37Z" finished-at="2018-11-11T02:57:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tryCatchTesting -->
+      </class> <!-- tests.SoftAssert -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

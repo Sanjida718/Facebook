@@ -19,6 +19,10 @@ public class AssertionTest extends Config {
 	System.out.println("Actual is : " +actText);
 	Assert.assertEquals(actText, val.createnacval);
 }
+public void assertTrue(boolean b) {
+	
+	
+}
 }
 
 
