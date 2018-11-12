@@ -3,11 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="tests.SoftAssert">
+      <class name="test_readWriteFromExcelFile.ReadWriteExcel">
         <methods>
-          <include name="assertRightThere"/>
+          <include name="writeFromExcel"/>
+          <include name="beforetestingstart"/>
         </methods>
-      </class> <!-- tests.SoftAssert -->
+      </class> <!-- test_readWriteFromExcelFile.ReadWriteExcel -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
