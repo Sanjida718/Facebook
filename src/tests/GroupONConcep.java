@@ -3,9 +3,9 @@ package tests;
 import org.testng.annotations.Test;
 
 public class GroupONConcep {
-	@Test(groups={"sanitySuite"})
+	@Test(groups={"smokeSuite"})
 	public void test1(){
-		System.out.println("this test case belongs to sanity test");
+		System.out.println("this test case belongs to smoke test");
 		}
 	@Test(groups={"sanitySuite","regressionSuite"})
 	public void test2(){
