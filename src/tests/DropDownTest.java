@@ -13,8 +13,7 @@ public class DropDownTest extends Config {
     public void test2(){
 		dropdownusingValue(loc.monthloc,value.monthval);
 		dropdownusingValue(loc.dayloc,value.dayval);
-		dropdownusingValue(loc.yearloc,value.yearval); 
-
+		dropdownusingValue(loc.yearloc1,value.yearval);
 	}
 
 }

@@ -3,12 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="test_readWriteFromExcelFile.ReadWriteExcel">
+      <class name="tests.Fb_Login_test1">
         <methods>
-          <include name="writeFromExcel"/>
+          <include name="fblogintest"/>
+          <include name="close1"/>
           <include name="beforetestingstart"/>
         </methods>
-      </class> <!-- test_readWriteFromExcelFile.ReadWriteExcel -->
+      </class> <!-- tests.Fb_Login_test1 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
